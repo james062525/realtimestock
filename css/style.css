@@ -1,0 +1,93 @@
+#waiting {
+  display: none;
+}
+
+#waiting.show {
+  display: block;
+  position: fixed;
+  z-index: 100;
+  background-image: url('loader.gif');
+  background-color: #666;
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+}
+
+#loadinggif.show {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  z-index: 101;
+  width: 32px;
+  height: 32px;
+  margin-left: -16px;
+  margin-top: -16px;
+}
+
+.trig {
+  display: none;
+}
+
+.box {
+  font-family: arial, sans-serif, serif, monospace;
+  color: #313131;
+  font-size: 16px;
+  width: 400px;
+}
+
+td.stockItem {
+  align-content: stretch;
+  align: center;
+}
+
+.myinput {
+  width: 75%;
+}
+
+#searchForm form .myinput:focus {
+  color: #858585;
+}
+
+.listBox {
+  width: 100%;
+  background: #ffffff;
+  align: center;
+}
+
+.sentinel {
+  -webkit-box-shadow: 0px 4px 4px 0px #7C6F64;
+  box-shadow: 0px 4px 4px 0px #7C6F64;
+}
+
+.showme {
+  -webkit-box-shadow: 0px 4px 4px 0px #FBF1C7;
+  box-shadow: 0px 4px 4px 0px #FBF1C7;
+  -webkit-border-radius: 0px 0px 10px 0px;
+}
+
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #fff;
+  cursor: default;
+  overflow: auto;
+}
+
+.autocomplete-suggestion {
+  padding: 10px 5px;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.autocomplete-selected {
+  background: #f0f0f0;
+}
+
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #3399ff;
+}
