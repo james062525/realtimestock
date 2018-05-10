@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="jquery-1.12.4.min.js"></script>
+  <script src="jquery.autocomplete.min.js"></script>
+  <script src="stocklist.js"></script>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div class="box">
+    <div id="searchForm">
+      <form>
+        <input type="text" name="stock" class="myinput" id="autocomplete" placeholder="">
+        <input type="button" value="新增" id="submit">
+      </form>
+    </div>
+
+    <div class="listBox">
+      <table id="hor-minimalist-a" style="font-size:80%;">
+        <thead class="sentinel">
+          <tr>
+            <th align="center">股票</th>
+            <th align="center">成交價</th>
+            <th align="center">漲跌</th>
+            <th align="center">成交量</th>
+            <th align="center">開盤</th>
+            <th align="center">最高</th>
+            <th align="center">最低</th>
+            <th align="center">時間</th>
+            <th align="center">刪除</th>
+          </tr>
+        </thead>
+        <tbody class="showme">
+        </tbody>
+      </table>
+    </div>
+    <div id="waiting"></div>
+  </div>
+</body>
+
+</html>

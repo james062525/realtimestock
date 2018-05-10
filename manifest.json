@@ -1,0 +1,20 @@
+{
+  "name": "RealtimeStock",
+  "version": "0.1",
+
+  "description": "Taiwan TWSE Realtime Stock Price",
+  "icons": {
+    "16": "css/icon16.png",
+    "32": "css/icon32.png",
+    "48": "css/icon48.png",
+    "128": "css/icon128.png"
+  },
+
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["storage", "tabs", "http://*/*", "https://*/*"],
+
+  "manifest_version": 2
+}
